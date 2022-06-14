@@ -27,6 +27,8 @@
 		8271F0C1285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0C0285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift */; };
 		8271F0CB285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0CA285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift */; };
 		8271F0CD285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */; };
+		8271F17D2859353D00A50B01 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F17C2859353D00A50B01 /* Workout.swift */; };
+		8271F180285935A700A50B01 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F17F285935A700A50B01 /* WorkoutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,8 @@
 		8271F0C6285910D300A50B01 /* TakeABreath WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TakeABreath WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8271F0CA285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreath_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreath_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8271F17C2859353D00A50B01 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		8271F17F285935A700A50B01 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +211,9 @@
 			isa = PBXGroup;
 			children = (
 				8271F076285910CC00A50B01 /* TakeABreathApp.swift */,
-				8271F078285910CC00A50B01 /* ContentView.swift */,
+				8271F17B2859350C00A50B01 /* Model */,
+				8271F17E2859357200A50B01 /* ViewModel */,
+				8271F17A2859350500A50B01 /* View */,
 				8271F07A285910D000A50B01 /* Assets.xcassets */,
 				8271F07C285910D000A50B01 /* Preview Content */,
 			);
@@ -286,6 +292,30 @@
 				8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "TakeABreath WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		8271F17A2859350500A50B01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8271F078285910CC00A50B01 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8271F17B2859350C00A50B01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8271F17C2859353D00A50B01 /* Workout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8271F17E2859357200A50B01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8271F17F285935A700A50B01 /* WorkoutViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,8 +569,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8271F180285935A700A50B01 /* WorkoutViewModel.swift in Sources */,
 				8271F079285910CC00A50B01 /* ContentView.swift in Sources */,
 				8271F077285910CC00A50B01 /* TakeABreathApp.swift in Sources */,
+				8271F17D2859353D00A50B01 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

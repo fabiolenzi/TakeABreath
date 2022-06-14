@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TakeABreathApp: App {
+    let vm = WorkoutViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm: vm)
         }
     }
 }
