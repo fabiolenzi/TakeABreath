@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8271F077285910CC00A50B01 /* TakeABreathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F076285910CC00A50B01 /* TakeABreathApp.swift */; };
+		8271F079285910CC00A50B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F078285910CC00A50B01 /* ContentView.swift */; };
+		8271F07B285910D000A50B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8271F07A285910D000A50B01 /* Assets.xcassets */; };
+		8271F07E285910D000A50B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8271F07D285910D000A50B01 /* Preview Assets.xcassets */; };
+		8271F088285910D000A50B01 /* TakeABreathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F087285910D000A50B01 /* TakeABreathTests.swift */; };
+		8271F092285910D000A50B01 /* TakeABreathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F091285910D000A50B01 /* TakeABreathUITests.swift */; };
+		8271F094285910D000A50B01 /* TakeABreathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F093285910D000A50B01 /* TakeABreathUITestsLaunchTests.swift */; };
+		8271F098285910D000A50B01 /* TakeABreath WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8271F097285910D000A50B01 /* TakeABreath WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8271F09D285910D200A50B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8271F09C285910D200A50B01 /* Assets.xcassets */; };
+		8271F0A3285910D200A50B01 /* TakeABreath WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8271F0A2285910D200A50B01 /* TakeABreath WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8271F0A8285910D200A50B01 /* TakeABreathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0A7285910D200A50B01 /* TakeABreathApp.swift */; };
+		8271F0AA285910D200A50B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0A9285910D200A50B01 /* ContentView.swift */; };
+		8271F0AC285910D200A50B01 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0AB285910D200A50B01 /* NotificationController.swift */; };
+		8271F0AE285910D200A50B01 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0AD285910D200A50B01 /* NotificationView.swift */; };
+		8271F0B0285910D200A50B01 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0AF285910D200A50B01 /* ComplicationController.swift */; };
+		8271F0B2285910D300A50B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8271F0B1285910D300A50B01 /* Assets.xcassets */; };
+		8271F0B5285910D300A50B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8271F0B4285910D300A50B01 /* Preview Assets.xcassets */; };
+		8271F0C1285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0C0285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift */; };
+		8271F0CB285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0CA285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift */; };
+		8271F0CD285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8271F084285910D000A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F072285910CC00A50B01;
+			remoteInfo = TakeABreath;
+		};
+		8271F08E285910D000A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F072285910CC00A50B01;
+			remoteInfo = TakeABreath;
+		};
+		8271F099285910D000A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F096285910D000A50B01;
+			remoteInfo = "TakeABreath WatchKit App";
+		};
+		8271F0A4285910D200A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F0A1285910D200A50B01;
+			remoteInfo = "TakeABreath WatchKit Extension";
+		};
+		8271F0BD285910D300A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F0A1285910D200A50B01;
+			remoteInfo = "TakeABreath WatchKit Extension";
+		};
+		8271F0C7285910D300A50B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8271F06B285910CC00A50B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8271F096285910D000A50B01;
+			remoteInfo = "TakeABreath WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8271F0D3285910D300A50B01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8271F0A3285910D200A50B01 /* TakeABreath WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0D7285910D300A50B01 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8271F098285910D000A50B01 /* TakeABreath WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8271F073285910CC00A50B01 /* TakeABreath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeABreath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F076285910CC00A50B01 /* TakeABreathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreathApp.swift; sourceTree = "<group>"; };
+		8271F078285910CC00A50B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8271F07A285910D000A50B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8271F07D285910D000A50B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8271F083285910D000A50B01 /* TakeABreathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeABreathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F087285910D000A50B01 /* TakeABreathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreathTests.swift; sourceTree = "<group>"; };
+		8271F08D285910D000A50B01 /* TakeABreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeABreathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F091285910D000A50B01 /* TakeABreathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreathUITests.swift; sourceTree = "<group>"; };
+		8271F093285910D000A50B01 /* TakeABreathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8271F097285910D000A50B01 /* TakeABreath WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TakeABreath WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F09C285910D200A50B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8271F0A2285910D200A50B01 /* TakeABreath WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TakeABreath WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F0A7285910D200A50B01 /* TakeABreathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreathApp.swift; sourceTree = "<group>"; };
+		8271F0A9285910D200A50B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8271F0AB285910D200A50B01 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8271F0AD285910D200A50B01 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		8271F0AF285910D200A50B01 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8271F0B1285910D300A50B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8271F0B4285910D300A50B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8271F0B6285910D300A50B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8271F0B7285910D300A50B01 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8271F0BC285910D300A50B01 /* TakeABreath WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TakeABreath WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F0C0285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreath_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		8271F0C6285910D300A50B01 /* TakeABreath WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TakeABreath WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8271F0CA285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreath_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeABreath_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8271F070285910CC00A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F080285910D000A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F08A285910D000A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F09F285910D200A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0B9285910D300A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0C3285910D300A50B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8271F06A285910CC00A50B01 = {
+			isa = PBXGroup;
+			children = (
+				8271F075285910CC00A50B01 /* TakeABreath */,
+				8271F086285910D000A50B01 /* TakeABreathTests */,
+				8271F090285910D000A50B01 /* TakeABreathUITests */,
+				8271F09B285910D000A50B01 /* TakeABreath WatchKit App */,
+				8271F0A6285910D200A50B01 /* TakeABreath WatchKit Extension */,
+				8271F0BF285910D300A50B01 /* TakeABreath WatchKit AppTests */,
+				8271F0C9285910D300A50B01 /* TakeABreath WatchKit AppUITests */,
+				8271F074285910CC00A50B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8271F074285910CC00A50B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8271F073285910CC00A50B01 /* TakeABreath.app */,
+				8271F083285910D000A50B01 /* TakeABreathTests.xctest */,
+				8271F08D285910D000A50B01 /* TakeABreathUITests.xctest */,
+				8271F097285910D000A50B01 /* TakeABreath WatchKit App.app */,
+				8271F0A2285910D200A50B01 /* TakeABreath WatchKit Extension.appex */,
+				8271F0BC285910D300A50B01 /* TakeABreath WatchKit AppTests.xctest */,
+				8271F0C6285910D300A50B01 /* TakeABreath WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8271F075285910CC00A50B01 /* TakeABreath */ = {
+			isa = PBXGroup;
+			children = (
+				8271F076285910CC00A50B01 /* TakeABreathApp.swift */,
+				8271F078285910CC00A50B01 /* ContentView.swift */,
+				8271F07A285910D000A50B01 /* Assets.xcassets */,
+				8271F07C285910D000A50B01 /* Preview Content */,
+			);
+			path = TakeABreath;
+			sourceTree = "<group>";
+		};
+		8271F07C285910D000A50B01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8271F07D285910D000A50B01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8271F086285910D000A50B01 /* TakeABreathTests */ = {
+			isa = PBXGroup;
+			children = (
+				8271F087285910D000A50B01 /* TakeABreathTests.swift */,
+			);
+			path = TakeABreathTests;
+			sourceTree = "<group>";
+		};
+		8271F090285910D000A50B01 /* TakeABreathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8271F091285910D000A50B01 /* TakeABreathUITests.swift */,
+				8271F093285910D000A50B01 /* TakeABreathUITestsLaunchTests.swift */,
+			);
+			path = TakeABreathUITests;
+			sourceTree = "<group>";
+		};
+		8271F09B285910D000A50B01 /* TakeABreath WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8271F09C285910D200A50B01 /* Assets.xcassets */,
+			);
+			path = "TakeABreath WatchKit App";
+			sourceTree = "<group>";
+		};
+		8271F0A6285910D200A50B01 /* TakeABreath WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8271F0A7285910D200A50B01 /* TakeABreathApp.swift */,
+				8271F0A9285910D200A50B01 /* ContentView.swift */,
+				8271F0AB285910D200A50B01 /* NotificationController.swift */,
+				8271F0AD285910D200A50B01 /* NotificationView.swift */,
+				8271F0AF285910D200A50B01 /* ComplicationController.swift */,
+				8271F0B1285910D300A50B01 /* Assets.xcassets */,
+				8271F0B6285910D300A50B01 /* Info.plist */,
+				8271F0B7285910D300A50B01 /* PushNotificationPayload.apns */,
+				8271F0B3285910D300A50B01 /* Preview Content */,
+			);
+			path = "TakeABreath WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8271F0B3285910D300A50B01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8271F0B4285910D300A50B01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8271F0BF285910D300A50B01 /* TakeABreath WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8271F0C0285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift */,
+			);
+			path = "TakeABreath WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		8271F0C9285910D300A50B01 /* TakeABreath WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8271F0CA285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift */,
+				8271F0CC285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "TakeABreath WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8271F072285910CC00A50B01 /* TakeABreath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0D8285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath" */;
+			buildPhases = (
+				8271F06F285910CC00A50B01 /* Sources */,
+				8271F070285910CC00A50B01 /* Frameworks */,
+				8271F071285910CC00A50B01 /* Resources */,
+				8271F0D7285910D300A50B01 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F09A285910D000A50B01 /* PBXTargetDependency */,
+			);
+			name = TakeABreath;
+			productName = TakeABreath;
+			productReference = 8271F073285910CC00A50B01 /* TakeABreath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8271F082285910D000A50B01 /* TakeABreathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0DB285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreathTests" */;
+			buildPhases = (
+				8271F07F285910D000A50B01 /* Sources */,
+				8271F080285910D000A50B01 /* Frameworks */,
+				8271F081285910D000A50B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F085285910D000A50B01 /* PBXTargetDependency */,
+			);
+			name = TakeABreathTests;
+			productName = TakeABreathTests;
+			productReference = 8271F083285910D000A50B01 /* TakeABreathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8271F08C285910D000A50B01 /* TakeABreathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0DE285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreathUITests" */;
+			buildPhases = (
+				8271F089285910D000A50B01 /* Sources */,
+				8271F08A285910D000A50B01 /* Frameworks */,
+				8271F08B285910D000A50B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F08F285910D000A50B01 /* PBXTargetDependency */,
+			);
+			name = TakeABreathUITests;
+			productName = TakeABreathUITests;
+			productReference = 8271F08D285910D000A50B01 /* TakeABreathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8271F096285910D000A50B01 /* TakeABreath WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0D4285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit App" */;
+			buildPhases = (
+				8271F095285910D000A50B01 /* Resources */,
+				8271F0D3285910D300A50B01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F0A5285910D200A50B01 /* PBXTargetDependency */,
+			);
+			name = "TakeABreath WatchKit App";
+			productName = "TakeABreath WatchKit App";
+			productReference = 8271F097285910D000A50B01 /* TakeABreath WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8271F0A1285910D200A50B01 /* TakeABreath WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0D0285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit Extension" */;
+			buildPhases = (
+				8271F09E285910D200A50B01 /* Sources */,
+				8271F09F285910D200A50B01 /* Frameworks */,
+				8271F0A0285910D200A50B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TakeABreath WatchKit Extension";
+			productName = "TakeABreath WatchKit Extension";
+			productReference = 8271F0A2285910D200A50B01 /* TakeABreath WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8271F0BB285910D300A50B01 /* TakeABreath WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0E1285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit AppTests" */;
+			buildPhases = (
+				8271F0B8285910D300A50B01 /* Sources */,
+				8271F0B9285910D300A50B01 /* Frameworks */,
+				8271F0BA285910D300A50B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F0BE285910D300A50B01 /* PBXTargetDependency */,
+			);
+			name = "TakeABreath WatchKit AppTests";
+			productName = "TakeABreath WatchKit AppTests";
+			productReference = 8271F0BC285910D300A50B01 /* TakeABreath WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8271F0C5285910D300A50B01 /* TakeABreath WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8271F0E4285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit AppUITests" */;
+			buildPhases = (
+				8271F0C2285910D300A50B01 /* Sources */,
+				8271F0C3285910D300A50B01 /* Frameworks */,
+				8271F0C4285910D300A50B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8271F0C8285910D300A50B01 /* PBXTargetDependency */,
+			);
+			name = "TakeABreath WatchKit AppUITests";
+			productName = "TakeABreath WatchKit AppUITests";
+			productReference = 8271F0C6285910D300A50B01 /* TakeABreath WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8271F06B285910CC00A50B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8271F072285910CC00A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8271F082285910D000A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8271F072285910CC00A50B01;
+					};
+					8271F08C285910D000A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8271F072285910CC00A50B01;
+					};
+					8271F096285910D000A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8271F0A1285910D200A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8271F0BB285910D300A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8271F0A1285910D200A50B01;
+					};
+					8271F0C5285910D300A50B01 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8271F096285910D000A50B01;
+					};
+				};
+			};
+			buildConfigurationList = 8271F06E285910CC00A50B01 /* Build configuration list for PBXProject "TakeABreath" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8271F06A285910CC00A50B01;
+			productRefGroup = 8271F074285910CC00A50B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8271F072285910CC00A50B01 /* TakeABreath */,
+				8271F082285910D000A50B01 /* TakeABreathTests */,
+				8271F08C285910D000A50B01 /* TakeABreathUITests */,
+				8271F096285910D000A50B01 /* TakeABreath WatchKit App */,
+				8271F0A1285910D200A50B01 /* TakeABreath WatchKit Extension */,
+				8271F0BB285910D300A50B01 /* TakeABreath WatchKit AppTests */,
+				8271F0C5285910D300A50B01 /* TakeABreath WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8271F071285910CC00A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F07E285910D000A50B01 /* Preview Assets.xcassets in Resources */,
+				8271F07B285910D000A50B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F081285910D000A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F08B285910D000A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F095285910D000A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F09D285910D200A50B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0A0285910D200A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F0B5285910D300A50B01 /* Preview Assets.xcassets in Resources */,
+				8271F0B2285910D300A50B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0BA285910D300A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0C4285910D300A50B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8271F06F285910CC00A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F079285910CC00A50B01 /* ContentView.swift in Sources */,
+				8271F077285910CC00A50B01 /* TakeABreathApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F07F285910D000A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F088285910D000A50B01 /* TakeABreathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F089285910D000A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F092285910D000A50B01 /* TakeABreathUITests.swift in Sources */,
+				8271F094285910D000A50B01 /* TakeABreathUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F09E285910D200A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F0AC285910D200A50B01 /* NotificationController.swift in Sources */,
+				8271F0AA285910D200A50B01 /* ContentView.swift in Sources */,
+				8271F0B0285910D200A50B01 /* ComplicationController.swift in Sources */,
+				8271F0A8285910D200A50B01 /* TakeABreathApp.swift in Sources */,
+				8271F0AE285910D200A50B01 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0B8285910D300A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F0C1285910D300A50B01 /* TakeABreath_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8271F0C2285910D300A50B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8271F0CD285910D300A50B01 /* TakeABreath_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				8271F0CB285910D300A50B01 /* TakeABreath_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8271F085285910D000A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F072285910CC00A50B01 /* TakeABreath */;
+			targetProxy = 8271F084285910D000A50B01 /* PBXContainerItemProxy */;
+		};
+		8271F08F285910D000A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F072285910CC00A50B01 /* TakeABreath */;
+			targetProxy = 8271F08E285910D000A50B01 /* PBXContainerItemProxy */;
+		};
+		8271F09A285910D000A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F096285910D000A50B01 /* TakeABreath WatchKit App */;
+			targetProxy = 8271F099285910D000A50B01 /* PBXContainerItemProxy */;
+		};
+		8271F0A5285910D200A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F0A1285910D200A50B01 /* TakeABreath WatchKit Extension */;
+			targetProxy = 8271F0A4285910D200A50B01 /* PBXContainerItemProxy */;
+		};
+		8271F0BE285910D300A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F0A1285910D200A50B01 /* TakeABreath WatchKit Extension */;
+			targetProxy = 8271F0BD285910D300A50B01 /* PBXContainerItemProxy */;
+		};
+		8271F0C8285910D300A50B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8271F096285910D000A50B01 /* TakeABreath WatchKit App */;
+			targetProxy = 8271F0C7285910D300A50B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8271F0CE285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8271F0CF285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8271F0D1285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeABreath WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TakeABreath WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TakeABreath WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8271F0D2285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeABreath WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TakeABreath WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TakeABreath WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8271F0D5285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TakeABreath_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TakeABreath WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.lenzi.TakeABreath;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8271F0D6285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TakeABreath_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TakeABreath WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.lenzi.TakeABreath;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8271F0D9285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeABreath/Preview Content\"";
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8271F0DA285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeABreath/Preview Content\"";
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8271F0DC285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeABreath.app/TakeABreath";
+			};
+			name = Debug;
+		};
+		8271F0DD285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeABreath.app/TakeABreath";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8271F0DF285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeABreath;
+			};
+			name = Debug;
+		};
+		8271F0E0285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lenzi.TakeABreathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeABreath;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8271F0E2285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lenzi.TakeABreath-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeABreath WatchKit Extension.appex/TakeABreath WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8271F0E3285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lenzi.TakeABreath-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeABreath WatchKit Extension.appex/TakeABreath WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8271F0E5285910D300A50B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lenzi.TakeABreath-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TakeABreath WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8271F0E6285910D300A50B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PMWDG5VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lenzi.TakeABreath-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TakeABreath WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8271F06E285910CC00A50B01 /* Build configuration list for PBXProject "TakeABreath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0CE285910D300A50B01 /* Debug */,
+				8271F0CF285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0D0285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0D1285910D300A50B01 /* Debug */,
+				8271F0D2285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0D4285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0D5285910D300A50B01 /* Debug */,
+				8271F0D6285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0D8285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0D9285910D300A50B01 /* Debug */,
+				8271F0DA285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0DB285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0DC285910D300A50B01 /* Debug */,
+				8271F0DD285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0DE285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0DF285910D300A50B01 /* Debug */,
+				8271F0E0285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0E1285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0E2285910D300A50B01 /* Debug */,
+				8271F0E3285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8271F0E4285910D300A50B01 /* Build configuration list for PBXNativeTarget "TakeABreath WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8271F0E5285910D300A50B01 /* Debug */,
+				8271F0E6285910D300A50B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8271F06B285910CC00A50B01 /* Project object */;
+}
